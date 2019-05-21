@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "name": "dwn-node",
+      "args" : ["start"],
+      "script": "./bin/dwn",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "log/node-app.stderr.log",
+      "out_file": "log/node-app.stdout.log",
+      "pid_file": "log/node-geo-api.pid",
+      "instances": 1,
+      "min_uptime": "200s",
+      "max_restarts": 10,
+      "max_memory_restart": "1G",
+      "watch": false,
+      "merge_logs": true,
+      "exec_interpreter": "node",
+      "exec_mode": "fork",
+      "autorestart": true,
+      "vizion": false,
+      "version": "2.0.11",
+      "env" : {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

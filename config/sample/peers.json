@@ -1,0 +1,19 @@
+{
+  "minimumVersion": ">=2.0.15",
+  "minimumNetworkReach": 3,
+  "globalTimeout": 5000,
+  "coldStart": 30,
+  "whiteList": [],
+  "blackList": [],
+  "list": [
+    {
+      "ip": "8.8.8.8",
+      "port": 4102
+    },
+    {
+      "ip": "8.8.8.8",
+      "port": 4102
+    }
+  ],
+  "sources": []
+}
