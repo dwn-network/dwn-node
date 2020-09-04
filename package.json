@@ -89,7 +89,7 @@
     "joi": "^14.3.0",
     "keyv": "^3.1.0",
     "link-module-alias": "^1.1.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "lout": "^11.1.0",
     "micromatch": "^3.1.10",
     "moment": "^2.22.2",
