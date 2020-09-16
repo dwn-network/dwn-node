@@ -95,7 +95,7 @@
     "moment": "^2.22.2",
     "msgpack-lite": "^0.1.26",
     "node-emoji": "^1.8.1",
-    "node-forge": "^0.7.6",
+    "node-forge": "^0.10.0",
     "otplib": "^10.0.1",
     "ow": "^0.8.0",
     "pg-promise": "^8.5.2",
